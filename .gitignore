@@ -1,0 +1,22 @@
+# 子仓（各自独立推送到 Mchnan 名下）
+/src/
+# 构建产物与镜像
+/prefix/
+/mirror/
+/vklink/
+*.img
+*.tar.xz
+vmlinuz-lts
+initramfs-lts
+# 编译出的本机探针二进制（源码入库，产物重建）
+/metal-shm-test
+/allocprobe-host
+/fmtprobe-host
+# 日志、取证拉取与运行时套接字
+/logs/
+/pull/
+*.log
+*.sock
+*.ppm
+/mesa-25.2.7-src/
+/mesa-26.2.3-src/
